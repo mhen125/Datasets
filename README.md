@@ -37,7 +37,7 @@ Datasets/
 | [home_prices.csv](home_prices.csv) | CSV | Historical median home sale prices in the US |
 | [median_income.csv](median_income.csv) | CSV | US median household income over time |
 | [mortgage30.csv](mortgage30.csv) | CSV | 30-year fixed mortgage rate historical data |
-| [spi.csv](spi.csv) | CSV | Consumer Price Index (CPI) data |
+| [spi.csv](spi.csv) | CSV | Consumer Price Index for All Urban Consumers (CPIAUCSL) |
 | [student_loan_debt.csv](student_loan_debt.csv) | CSV | Student loan debt statistics |
 | [tuition-dataset.csv](tuition-dataset.csv) | CSV | College tuition costs over time |
 | [cleaned_tuition_dataset.csv](cleaned_tuition_dataset.csv) | CSV | Cleaned version of college tuition data |
