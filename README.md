@@ -18,14 +18,31 @@ Datasets/
 ├── regression/         # Datasets for regression tasks
 ├── nlp/               # Natural Language Processing datasets
 ├── time-series/       # Time series datasets
-└── misc/              # Miscellaneous datasets
+├── misc/              # Miscellaneous datasets
+└── *.csv              # Root-level datasets (various categories)
 ```
 
 ## Available Datasets
 
+### Categorized Datasets
+
 | Dataset | Category | Format | Description |
 |---------|----------|--------|-------------|
-| iris | classification | CSV | Classic Iris flower dataset for classification |
+| [iris.csv](classification/iris.csv) | classification | CSV | Classic Iris flower dataset for classification |
+
+### Root-Level Datasets
+
+| Dataset | Format | Description |
+|---------|--------|-------------|
+| [home_prices.csv](home_prices.csv) | CSV | Historical median home sale prices in the US |
+| [median_income.csv](median_income.csv) | CSV | US median household income over time |
+| [mortgage30.csv](mortgage30.csv) | CSV | 30-year fixed mortgage rate historical data |
+| [spi.csv](spi.csv) | CSV | Consumer Price Index for All Urban Consumers (CPIAUCSL) |
+| [student_loan_debt.csv](student_loan_debt.csv) | CSV | Student loan debt statistics |
+| [tuition-dataset.csv](tuition-dataset.csv) | CSV | College tuition costs over time |
+| [cleaned_tuition_dataset.csv](cleaned_tuition_dataset.csv) | CSV | Cleaned version of college tuition data |
+| [cleaned_tuition_dataset.xlsx](cleaned_tuition_dataset.xlsx) | XLSX | Cleaned college tuition data (Excel format) |
+| [RITIS-Oct-2025.csv](RITIS-Oct-2025.csv) | CSV | Traffic speed and travel time data from RITIS |
 
 ## Usage
 
